@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04300FE31E1366B10059262A /* GJBufferPool+cplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE8B47B91DD0C09900A824D8 /* GJBufferPool+cplus.cpp */; };
+		04300FE41E1366B10059262A /* GJQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = AE7AE3561E12C02700639DD7 /* GJQueue.c */; };
+		04300FE51E1366B10059262A /* GJBufferPool.c in Sources */ = {isa = PBXBuildFile; fileRef = AE7AE3591E12D08B00639DD7 /* GJBufferPool.c */; };
+		04300FE61E1366D90059262A /* GJQueue+cplus.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEB50CD21CFC739300625586 /* GJQueue+cplus.h */; };
+		04300FE71E1366D90059262A /* GJBufferPool+cplus.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE8B47BA1DD0C09900A824D8 /* GJBufferPool+cplus.h */; };
+		04300FE81E1366D90059262A /* GJQueue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE7AE3571E12C02700639DD7 /* GJQueue.h */; };
+		04300FE91E1366D90059262A /* GJBufferPool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE7AE35A1E12D08B00639DD7 /* GJBufferPool.h */; };
+		AE7AE3581E12C02700639DD7 /* GJQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = AE7AE3561E12C02700639DD7 /* GJQueue.c */; };
+		AE7AE35B1E12D08B00639DD7 /* GJBufferPool.c in Sources */ = {isa = PBXBuildFile; fileRef = AE7AE3591E12D08B00639DD7 /* GJBufferPool.c */; };
+		AE8B47BC1DD0C0E600A824D8 /* GJBufferPool+cplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE8B47B91DD0C09900A824D8 /* GJBufferPool+cplus.cpp */; };
+		C50856851C97EE2A002094FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C50856841C97EE2A002094FA /* main.m */; };
+		C50856881C97EE2A002094FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C50856871C97EE2A002094FA /* AppDelegate.m */; };
+		C508568B1C97EE2A002094FA /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C508568A1C97EE2A002094FA /* ViewController.mm */; };
+		C508568E1C97EE2A002094FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C508568C1C97EE2A002094FA /* Main.storyboard */; };
+		C50856901C97EE2A002094FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C508568F1C97EE2A002094FA /* Assets.xcassets */; };
+		C50856931C97EE2A002094FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50856911C97EE2A002094FA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04300FD81E13669C0059262A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				04300FE61E1366D90059262A /* GJQueue+cplus.h in CopyFiles */,
+				04300FE71E1366D90059262A /* GJBufferPool+cplus.h in CopyFiles */,
+				04300FE81E1366D90059262A /* GJQueue.h in CopyFiles */,
+				04300FE91E1366D90059262A /* GJBufferPool.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04300FDA1E13669C0059262A /* liblibQueue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibQueue.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7AE3561E12C02700639DD7 /* GJQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GJQueue.c; sourceTree = "<group>"; };
+		AE7AE3571E12C02700639DD7 /* GJQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJQueue.h; sourceTree = "<group>"; };
+		AE7AE3591E12D08B00639DD7 /* GJBufferPool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GJBufferPool.c; sourceTree = "<group>"; };
+		AE7AE35A1E12D08B00639DD7 /* GJBufferPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJBufferPool.h; sourceTree = "<group>"; };
+		AE8B47B91DD0C09900A824D8 /* GJBufferPool+cplus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "GJBufferPool+cplus.cpp"; sourceTree = "<group>"; };
+		AE8B47BA1DD0C09900A824D8 /* GJBufferPool+cplus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GJBufferPool+cplus.h"; sourceTree = "<group>"; };
+		AEB50CD21CFC739300625586 /* GJQueue+cplus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GJQueue+cplus.h"; sourceTree = "<group>"; };
+		C50856801C97EE2A002094FA /* GJQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50856841C97EE2A002094FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C50856861C97EE2A002094FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C50856871C97EE2A002094FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C50856891C97EE2A002094FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C508568A1C97EE2A002094FA /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		C508568D1C97EE2A002094FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C508568F1C97EE2A002094FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C50856921C97EE2A002094FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C50856941C97EE2A002094FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04300FD71E13669C0059262A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C508567D1C97EE2A002094FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04300FDB1E13669C0059262A /* libQueue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libQueue;
+			sourceTree = "<group>";
+		};
+		C50856771C97EE2A002094FA = {
+			isa = PBXGroup;
+			children = (
+				C508569A1C97EE33002094FA /* Class */,
+				C50856821C97EE2A002094FA /* GJQueue */,
+				04300FDB1E13669C0059262A /* libQueue */,
+				C50856811C97EE2A002094FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C50856811C97EE2A002094FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C50856801C97EE2A002094FA /* GJQueue.app */,
+				04300FDA1E13669C0059262A /* liblibQueue.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50856821C97EE2A002094FA /* GJQueue */ = {
+			isa = PBXGroup;
+			children = (
+				C50856861C97EE2A002094FA /* AppDelegate.h */,
+				C50856871C97EE2A002094FA /* AppDelegate.m */,
+				C50856891C97EE2A002094FA /* ViewController.h */,
+				C508568A1C97EE2A002094FA /* ViewController.mm */,
+				C508568C1C97EE2A002094FA /* Main.storyboard */,
+				C508568F1C97EE2A002094FA /* Assets.xcassets */,
+				C50856911C97EE2A002094FA /* LaunchScreen.storyboard */,
+				C50856941C97EE2A002094FA /* Info.plist */,
+				C50856831C97EE2A002094FA /* Supporting Files */,
+			);
+			path = GJQueue;
+			sourceTree = "<group>";
+		};
+		C50856831C97EE2A002094FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C50856841C97EE2A002094FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C508569A1C97EE33002094FA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				AEB50CD21CFC739300625586 /* GJQueue+cplus.h */,
+				AE8B47BA1DD0C09900A824D8 /* GJBufferPool+cplus.h */,
+				AE8B47B91DD0C09900A824D8 /* GJBufferPool+cplus.cpp */,
+				AE7AE3561E12C02700639DD7 /* GJQueue.c */,
+				AE7AE3571E12C02700639DD7 /* GJQueue.h */,
+				AE7AE3591E12D08B00639DD7 /* GJBufferPool.c */,
+				AE7AE35A1E12D08B00639DD7 /* GJBufferPool.h */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04300FD91E13669C0059262A /* libQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04300FE21E13669C0059262A /* Build configuration list for PBXNativeTarget "libQueue" */;
+			buildPhases = (
+				04300FD61E13669C0059262A /* Sources */,
+				04300FD71E13669C0059262A /* Frameworks */,
+				04300FD81E13669C0059262A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libQueue;
+			productName = libQueue;
+			productReference = 04300FDA1E13669C0059262A /* liblibQueue.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C508567F1C97EE2A002094FA /* GJQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50856971C97EE2A002094FA /* Build configuration list for PBXNativeTarget "GJQueue" */;
+			buildPhases = (
+				C508567C1C97EE2A002094FA /* Sources */,
+				C508567D1C97EE2A002094FA /* Frameworks */,
+				C508567E1C97EE2A002094FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GJQueue;
+			productName = GJQueue;
+			productReference = C50856801C97EE2A002094FA /* GJQueue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C50856781C97EE2A002094FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MinorUncle;
+				TargetAttributes = {
+					04300FD91E13669C0059262A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X33DX68294;
+						ProvisioningStyle = Automatic;
+					};
+					C508567F1C97EE2A002094FA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9VXBV77545;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C508567B1C97EE2A002094FA /* Build configuration list for PBXProject "GJQueue" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C50856771C97EE2A002094FA;
+			productRefGroup = C50856811C97EE2A002094FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C508567F1C97EE2A002094FA /* GJQueue */,
+				04300FD91E13669C0059262A /* libQueue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C508567E1C97EE2A002094FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50856931C97EE2A002094FA /* LaunchScreen.storyboard in Resources */,
+				C50856901C97EE2A002094FA /* Assets.xcassets in Resources */,
+				C508568E1C97EE2A002094FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04300FD61E13669C0059262A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04300FE41E1366B10059262A /* GJQueue.c in Sources */,
+				04300FE51E1366B10059262A /* GJBufferPool.c in Sources */,
+				04300FE31E1366B10059262A /* GJBufferPool+cplus.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C508567C1C97EE2A002094FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7AE3581E12C02700639DD7 /* GJQueue.c in Sources */,
+				C508568B1C97EE2A002094FA /* ViewController.mm in Sources */,
+				C50856881C97EE2A002094FA /* AppDelegate.m in Sources */,
+				AE8B47BC1DD0C0E600A824D8 /* GJBufferPool+cplus.cpp in Sources */,
+				AE7AE35B1E12D08B00639DD7 /* GJBufferPool.c in Sources */,
+				C50856851C97EE2A002094FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C508568C1C97EE2A002094FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C508568D1C97EE2A002094FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C50856911C97EE2A002094FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C50856921C97EE2A002094FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04300FE01E13669C0059262A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = X33DX68294;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		04300FE11E13669C0059262A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = X33DX68294;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C50856951C97EE2A002094FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C50856961C97EE2A002094FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C50856981C97EE2A002094FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9VXBV77545;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = GJQueue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.GJQueue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		C50856991C97EE2A002094FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9VXBV77545;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = GJQueue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.GJQueue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04300FE21E13669C0059262A /* Build configuration list for PBXNativeTarget "libQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04300FE01E13669C0059262A /* Debug */,
+				04300FE11E13669C0059262A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C508567B1C97EE2A002094FA /* Build configuration list for PBXProject "GJQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50856951C97EE2A002094FA /* Debug */,
+				C50856961C97EE2A002094FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50856971C97EE2A002094FA /* Build configuration list for PBXNativeTarget "GJQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50856981C97EE2A002094FA /* Debug */,
+				C50856991C97EE2A002094FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C50856781C97EE2A002094FA /* Project object */;
+}
